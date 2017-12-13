@@ -70,7 +70,7 @@ $(NPM_DEPS): node_modules
 
 bower_components: $(BOWER) bower.json
 	@echo "  BOWER"
-	$(BOWER) install --silent
+	$(BOWER) install
 	touch -c $@
 
 syscall-api: $(BUILD_DEPS)
