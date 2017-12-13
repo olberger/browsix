@@ -22,5 +22,5 @@ echo "---------"
 
 echo "-------"
 echo "running: "
-docker run -t -i $IMAGE_NAME
+docker run -t -i  -p 5000:5000 $IMAGE_NAME
 echo "-------"
